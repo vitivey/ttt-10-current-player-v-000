@@ -1,3 +1,8 @@
 def turn_count(board)
-  board.size-1
+  count = 0
+  board.each do |count_of_plays|
+    if #{count_of_plays}=="X" || #{count_of_plays} == "O"
+      count+=1
+    end
+  end
 end
